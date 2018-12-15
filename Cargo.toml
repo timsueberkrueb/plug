@@ -1,0 +1,12 @@
+[package]
+name = "plug_"
+version = "0.1.0"
+authors = ["Tim Süberkrüb <dev@timsueberkrueb.io>"]
+edition = "2018"
+
+[dependencies]
+logos = { version = "0.9", optional = true }
+
+[features]
+default = []
+logos_support = ["logos"]
